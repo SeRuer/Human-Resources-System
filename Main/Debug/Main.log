@@ -1,0 +1,37 @@
+﻿  employeeAccess.cpp
+f:\hr\main\main\employeelog.h(14): error C2061: syntax error: identifier 'string'
+f:\hr\main\main\employeelog.h(15): error C2061: syntax error: identifier 'string'
+f:\hr\main\main\employeelog.h(16): error C3646: 'getEName': unknown override specifier
+f:\hr\main\main\employeelog.h(16): error C2059: syntax error: '('
+f:\hr\main\main\employeelog.h(16): error C2238: unexpected token(s) preceding ';'
+f:\hr\main\main\employeelog.h(19): error C2061: syntax error: identifier 'string'
+f:\hr\main\main\employeelog.h(21): error C3646: 'getEGender': unknown override specifier
+f:\hr\main\main\employeelog.h(21): error C2059: syntax error: '('
+f:\hr\main\main\employeelog.h(21): error C2238: unexpected token(s) preceding ';'
+f:\hr\main\main\employeehold.h(8): error C2011: 'employeeEntry': 'class' type redefinition
+  f:\hr\main\main\employeelog.h(7): note: see declaration of 'employeeEntry'
+f:\hr\main\main\employeeaccess.cpp(29): error C2027: use of undefined type 'employeeEntry'
+  f:\hr\main\main\employeelog.h(7): note: see declaration of 'employeeEntry'
+f:\hr\main\main\employeeaccess.cpp(85): error C2027: use of undefined type 'employeeEntry'
+  f:\hr\main\main\employeelog.h(7): note: see declaration of 'employeeEntry'
+f:\hr\main\main\employeeaccess.cpp(111): error C3861: 'viewEmployeeProfile': identifier not found
+f:\hr\main\main\employeeaccess.cpp(116): error C3861: 'viewEmployeeSalary': identifier not found
+f:\hr\main\main\employeeaccess.cpp(141): error C2027: use of undefined type 'employeeEntry'
+  f:\hr\main\main\employeelog.h(7): note: see declaration of 'employeeEntry'
+f:\hr\main\main\employeeaccess.cpp(185): error C2562: 'viewEmployeeSalary': 'void' function returning a value
+  f:\hr\main\main\employeeaccess.cpp(141): note: see declaration of 'viewEmployeeSalary'
+f:\hr\main\main\employeeaccess.cpp(192): error C2027: use of undefined type 'employeeEntry'
+  f:\hr\main\main\employeelog.h(7): note: see declaration of 'employeeEntry'
+f:\hr\main\main\employeeaccess.cpp(210): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+f:\hr\main\main\employeeaccess.cpp(210): error C2660: 'std::basic_istream<char,std::char_traits<char>>::read': function does not take 1 arguments
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\istream(577): note: see declaration of 'std::basic_istream<char,std::char_traits<char>>::read'
+f:\hr\main\main\employeeaccess.cpp(213): error C2065: 'eUsername': undeclared identifier
+f:\hr\main\main\employeeaccess.cpp(215): error C3861: 'showEmployee': identifier not found
+f:\hr\main\main\employeeaccess.cpp(219): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+f:\hr\main\main\employeeaccess.cpp(219): error C2660: 'std::basic_istream<char,std::char_traits<char>>::read': function does not take 1 arguments
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\istream(577): note: see declaration of 'std::basic_istream<char,std::char_traits<char>>::read'
+  Main.cpp
+f:\hr\main\main\main.cpp(88): error C2374: 'chat': redefinition; multiple initialization
+  f:\hr\main\main\main.cpp(78): note: see declaration of 'chat'
+f:\hr\main\main\main.cpp(90): error C2088: '>>': illegal for class
+  Generating Code...
